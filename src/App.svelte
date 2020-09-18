@@ -4,7 +4,7 @@
  <hr>
  <div class="row">
   {#each datanya as x}
-   <div class="col-6">
+   <div class="col-6 col-sm-3">
     <div class="card" on:click={() => location.href = `aplikasi/${x}.signed.apk`}>
      <img class="card-img-top" src="gambar/{x.toLowerCase()}.png" alt={x}>
      <div class="card-body">
@@ -26,5 +26,7 @@
 <style>
  .card {
  	margin-bottom: 20px;
+  user-select: none;
+  cursor: pointer;
  }
 </style>

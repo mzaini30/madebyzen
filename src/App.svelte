@@ -5,8 +5,8 @@
  <div class="row">
   {#each datanya as x}
    <div class="col-6">
-    <div class="card" on:click={() => location.href = `aplikasi/${x.signed.apk}`>
-     <img class="card-img-top" src="gambar/{x.toLowerCase}.png" alt={x}>
+    <div class="card" on:click={() => location.href = `aplikasi/${x}.signed.apk`}>
+     <img class="card-img-top" src="gambar/{x.toLowerCase()}.png" alt={x}>
      <div class="card-body">
       <h5 class="card-title">{x}</h5>
      </div>
@@ -22,3 +22,9 @@
  let datanya = []
  onMount(() => datanya = data.sort())
 </script>
+
+<style>
+ .card {
+ 	margin-bottom: 20px;
+ }
+</style>

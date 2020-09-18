@@ -1,8 +1,3 @@
-let data = [
-	{
-		nama: "Catatan",
-		link: ""
-	}
-]
+let data = ["Kalkulator", "Catatan", "Murajaah"]
 
 export {data}

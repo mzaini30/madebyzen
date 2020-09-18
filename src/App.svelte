@@ -5,10 +5,10 @@
  <div class="row">
   {#each datanya as x}
    <div class="col-6">
-    <div class="card" on:click={() => location.href = x.link}>
-     <img class="card-img-top" src="{x.nama.toLowerCase}.jpg" alt={x.nama}>
+    <div class="card" on:click={() => location.href = `aplikasi/${x.signed.apk}`>
+     <img class="card-img-top" src="gambar/{x.toLowerCase}.png" alt={x}>
      <div class="card-body">
-      <h5 class="card-title">{x.nama}</h5>
+      <h5 class="card-title">{x}</h5>
      </div>
     </div>
    </div>
@@ -20,5 +20,5 @@
  import {onMount} from "svelte"
  import {data} from "./data.js"
  let datanya = []
- onMount(() => datanya = data)
+ onMount(() => datanya = data.sort())
 </script>

@@ -13,6 +13,12 @@
   const anti_cors = "https://cfv7gd.deta.dev/?url=";
 
   async function olah() {
+    const standar = "https://www.youtube.com/watch?v="
+    if (link.includes("youtu.be")){
+    	link = standar + link.split("/").reverse()[0]
+    }
+
+  
     tunggu_sebentar = true;
     let ambil = await fetch(anti_cors + encodeURIComponent(link));
     ambil = await ambil.text();

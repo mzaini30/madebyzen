@@ -1,0 +1,29 @@
+{
+  "src/components/TagYoutube.svelte": {
+    "file": "assets/TagYoutube.038ff89d.js",
+    "src": "src/components/TagYoutube.svelte",
+    "isEntry": true,
+    "imports": [
+      "_vendor-svelte.6b6bbebf.js"
+    ]
+  },
+  "virtual_ile_tag-youtube_ile-1": {
+    "file": "assets/virtual_ile_tag-youtube_ile-1.bb1e3342.js",
+    "src": "virtual_ile_tag-youtube_ile-1",
+    "isEntry": true,
+    "imports": [
+      "_iles.dcdb0395.js",
+      "src/components/TagYoutube.svelte",
+      "_vendor-svelte.6b6bbebf.js"
+    ]
+  },
+  "_iles.dcdb0395.js": {
+    "file": "assets/iles.dcdb0395.js",
+    "imports": [
+      "_vendor-svelte.6b6bbebf.js"
+    ]
+  },
+  "_vendor-svelte.6b6bbebf.js": {
+    "file": "assets/vendor-svelte.6b6bbebf.js"
+  }
+}

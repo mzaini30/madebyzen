@@ -35,6 +35,7 @@ jobs:
         run: pnpm install
 
       - run: pnpm build
+      - run: node script/kasih-adsense.mjs
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

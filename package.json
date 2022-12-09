@@ -18,6 +18,7 @@
     "vue-tsc": "^0.38"
   },
   "dependencies": {
+    "cup-readdir": "^1.0.3",
     "svelte": "^3.46.5"
   }
 }

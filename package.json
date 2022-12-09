@@ -2,9 +2,9 @@
   "name": "iles-app",
   "version": "0.0.0",
   "scripts": {
-    "dev": "iles dev --open",
+    "dev": "iles dev",
     "build": "iles build",
-    "preview": "iles preview --open --port 5050",
+    "preview": "iles preview --port 5050",
     "typecheck": "vue-tsc --noEmit"
   },
   "engines": {
@@ -14,11 +14,15 @@
     "@sveltejs/vite-plugin-svelte": "^1.0.0-next.40",
     "iles": "^0.8.4",
     "typescript": "^4.5",
+    "unocss": "^0.47.5",
     "vite": "3.0.9",
     "vue-tsc": "^0.38"
   },
   "dependencies": {
+    "@unocss/reset": "^0.47.5",
+    "@unocss/transformer-directives": "^0.47.5",
     "cup-readdir": "^1.0.3",
+    "only-toast": "^1.0.1",
     "svelte": "^3.46.5"
   }
 }

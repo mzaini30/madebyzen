@@ -79,6 +79,6 @@
   cols="30"
   rows="10"
 />
-<button on:click={reset} class="inline-block mt-3 bg-red-500 text-white p-2"
+<button on:click={reset} class="inline-block my-3 bg-red-500 text-white p-2"
   >reset</button
 >

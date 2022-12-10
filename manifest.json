@@ -1,6 +1,6 @@
 {
   "src/components/TagYoutube.svelte": {
-    "file": "assets/TagYoutube.a2514567.js",
+    "file": "assets/TagYoutube.4ed2dd3e.js",
     "src": "src/components/TagYoutube.svelte",
     "isEntry": true,
     "imports": [
@@ -8,7 +8,7 @@
     ]
   },
   "virtual_ile_tag-youtube_ile-1": {
-    "file": "assets/virtual_ile_tag-youtube_ile-1.d866bfdf.js",
+    "file": "assets/virtual_ile_tag-youtube_ile-1.3be6db35.js",
     "src": "virtual_ile_tag-youtube_ile-1",
     "isEntry": true,
     "imports": [

@@ -1,6 +1,5 @@
 import { defineConfig } from "iles";
-import Unocss from "unocss/vite";
-import transformerDirectives from "@unocss/transformer-directives";
+import WindiCSS from "vite-plugin-windicss";
 
 export default defineConfig({
   svelte: true,
@@ -9,6 +8,6 @@ export default defineConfig({
     optimizeDeps: {
       include: ["svelte"],
     },
-    plugins: [Unocss({ transformers: [transformerDirectives()] })],
+    plugins: [WindiCSS()],
   },
 });

@@ -1,6 +1,7 @@
 <script setup="">
-import "@unocss/reset/tailwind.css";
-import "uno.css";
+import "virtual:windi.css";
+// import "@unocss/reset/tailwind.css";
+// import "uno.css";
 
 const daftar_isi = [
   {

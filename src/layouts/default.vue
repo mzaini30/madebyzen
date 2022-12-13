@@ -11,6 +11,10 @@ const daftar_isi = [
     judul: "Pembuat Tag YouTube",
     link: "/tag-youtube",
   },
+  {
+    judul: "Webcam Online",
+    link: "/webcam",
+  },
 ];
 </script>
 

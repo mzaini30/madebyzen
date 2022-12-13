@@ -1,5 +1,6 @@
 <page>
   title: Made by Zen
+  description: Kumpulan tools yang kubuat untuk memudahkan kegiatan sehari-hari.
 </page>
 
 <template>

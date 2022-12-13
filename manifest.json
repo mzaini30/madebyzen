@@ -1,29 +1,51 @@
 {
   "src/components/TagYoutube.svelte": {
-    "file": "assets/TagYoutube.4ed2dd3e.js",
+    "file": "assets/TagYoutube.44f3c9fb.js",
     "src": "src/components/TagYoutube.svelte",
     "isEntry": true,
     "imports": [
-      "_vendor-svelte.6b6bbebf.js"
+      "_vendor-svelte.30fdc271.js"
+    ]
+  },
+  "src/components/WebcamOnline.svelte": {
+    "file": "assets/WebcamOnline.2b4eb2dc.js",
+    "src": "src/components/WebcamOnline.svelte",
+    "isEntry": true,
+    "imports": [
+      "_vendor-svelte.30fdc271.js"
     ]
   },
   "virtual_ile_tag-youtube_ile-1": {
-    "file": "assets/virtual_ile_tag-youtube_ile-1.3be6db35.js",
+    "file": "assets/virtual_ile_tag-youtube_ile-1.e9c11d88.js",
     "src": "virtual_ile_tag-youtube_ile-1",
     "isEntry": true,
     "imports": [
-      "_iles.dcdb0395.js",
+      "_iles.3e1b1fbc.js",
       "src/components/TagYoutube.svelte",
-      "_vendor-svelte.6b6bbebf.js"
+      "_vendor-svelte.30fdc271.js"
     ]
   },
-  "_iles.dcdb0395.js": {
-    "file": "assets/iles.dcdb0395.js",
+  "virtual_ile_webcam_ile-1": {
+    "file": "assets/virtual_ile_webcam_ile-1.0ee32f31.js",
+    "src": "virtual_ile_webcam_ile-1",
+    "isEntry": true,
     "imports": [
-      "_vendor-svelte.6b6bbebf.js"
+      "_iles.3e1b1fbc.js",
+      "src/components/WebcamOnline.svelte",
+      "_vendor-svelte.30fdc271.js"
     ]
   },
-  "_vendor-svelte.6b6bbebf.js": {
-    "file": "assets/vendor-svelte.6b6bbebf.js"
+  "_iles.3e1b1fbc.js": {
+    "file": "assets/iles.3e1b1fbc.js",
+    "imports": [
+      "_vendor-svelte.30fdc271.js"
+    ]
+  },
+  "_vendor-svelte.30fdc271.js": {
+    "file": "assets/vendor-svelte.30fdc271.js"
+  },
+  "style.css": {
+    "file": "assets/style.8a2bede9.css",
+    "src": "style.css"
   }
 }

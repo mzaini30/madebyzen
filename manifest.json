@@ -1,6 +1,6 @@
 {
   "src/components/GetAyat.vue": {
-    "file": "assets/GetAyat.404b80d3.js",
+    "file": "assets/GetAyat.aa04babc.js",
     "src": "src/components/GetAyat.vue",
     "isEntry": true,
     "imports": [
@@ -25,7 +25,7 @@
     ]
   },
   "virtual_ile_get-ayat_ile-1": {
-    "file": "assets/virtual_ile_get-ayat_ile-1.79b71c96.js",
+    "file": "assets/virtual_ile_get-ayat_ile-1.bce30b4f.js",
     "src": "virtual_ile_get-ayat_ile-1",
     "isEntry": true,
     "imports": [
@@ -75,7 +75,7 @@
     "file": "assets/vite.ccbd5bd7.js"
   },
   "style.css": {
-    "file": "assets/style.dc876f6f.css",
+    "file": "assets/style.2834e8fd.css",
     "src": "style.css"
   }
 }

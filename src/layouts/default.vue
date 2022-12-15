@@ -16,6 +16,10 @@ const daftar_isi = [
     judul: "Webcam Online",
     link: "/webcam",
   },
+  {
+    judul: "Get Ayat",
+    link: "/get-ayat",
+  },
 ];
 </script>
 

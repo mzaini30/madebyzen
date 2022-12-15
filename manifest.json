@@ -1,4 +1,13 @@
 {
+  "src/components/GetAyat.vue": {
+    "file": "assets/GetAyat.404b80d3.js",
+    "src": "src/components/GetAyat.vue",
+    "isEntry": true,
+    "imports": [
+      "_vendor-vue.2f656d6f.js",
+      "_vite.ccbd5bd7.js"
+    ]
+  },
   "src/components/TagYoutube.svelte": {
     "file": "assets/TagYoutube.44f3c9fb.js",
     "src": "src/components/TagYoutube.svelte",
@@ -15,37 +24,58 @@
       "_vendor-svelte.30fdc271.js"
     ]
   },
+  "virtual_ile_get-ayat_ile-1": {
+    "file": "assets/virtual_ile_get-ayat_ile-1.79b71c96.js",
+    "src": "virtual_ile_get-ayat_ile-1",
+    "isEntry": true,
+    "imports": [
+      "_iles.d354bc70.js",
+      "src/components/GetAyat.vue",
+      "_vendor-vue.2f656d6f.js",
+      "_vendor-svelte.30fdc271.js",
+      "_vite.ccbd5bd7.js"
+    ]
+  },
   "virtual_ile_tag-youtube_ile-1": {
-    "file": "assets/virtual_ile_tag-youtube_ile-1.e9c11d88.js",
+    "file": "assets/virtual_ile_tag-youtube_ile-1.dd8458c3.js",
     "src": "virtual_ile_tag-youtube_ile-1",
     "isEntry": true,
     "imports": [
-      "_iles.3e1b1fbc.js",
+      "_iles.d354bc70.js",
       "src/components/TagYoutube.svelte",
+      "_vendor-vue.2f656d6f.js",
       "_vendor-svelte.30fdc271.js"
     ]
   },
   "virtual_ile_webcam_ile-1": {
-    "file": "assets/virtual_ile_webcam_ile-1.0ee32f31.js",
+    "file": "assets/virtual_ile_webcam_ile-1.b7549113.js",
     "src": "virtual_ile_webcam_ile-1",
     "isEntry": true,
     "imports": [
-      "_iles.3e1b1fbc.js",
+      "_iles.d354bc70.js",
       "src/components/WebcamOnline.svelte",
+      "_vendor-vue.2f656d6f.js",
       "_vendor-svelte.30fdc271.js"
     ]
   },
-  "_iles.3e1b1fbc.js": {
-    "file": "assets/iles.3e1b1fbc.js",
+  "_iles.d354bc70.js": {
+    "file": "assets/iles.d354bc70.js",
     "imports": [
+      "_vendor-vue.2f656d6f.js",
       "_vendor-svelte.30fdc271.js"
     ]
   },
   "_vendor-svelte.30fdc271.js": {
     "file": "assets/vendor-svelte.30fdc271.js"
   },
+  "_vendor-vue.2f656d6f.js": {
+    "file": "assets/vendor-vue.2f656d6f.js"
+  },
+  "_vite.ccbd5bd7.js": {
+    "file": "assets/vite.ccbd5bd7.js"
+  },
   "style.css": {
-    "file": "assets/style.8a2bede9.css",
+    "file": "assets/style.dc876f6f.css",
     "src": "style.css"
   }
 }

@@ -84,13 +84,19 @@ function olah() {
         <div class="col">
           <div class="mb-3">
             <label for="" class="form-label">Juz</label>
-            <div class="form-control hasil" v-html="juz"></div>
+            <div
+              class="form-control hasil select-all bg-white overflow-y-auto p-2"
+              v-html="juz"
+            ></div>
           </div>
         </div>
         <div class="col">
           <div class="mb-3">
             <label for="" class="form-label">Surat</label>
-            <div class="form-control hasil" v-html="surat"></div>
+            <div
+              class="form-control hasil select-all bg-white overflow-y-auto p-2"
+              v-html="surat"
+            ></div>
           </div>
         </div>
       </div>
@@ -105,9 +111,6 @@ function olah() {
 textarea,
 .hasil {
   @apply h-110;
-}
-.form-control.hasil {
-  @apply select-all bg-white overflow-y-auto p-2;
 }
 .form-label,
 .form-control {

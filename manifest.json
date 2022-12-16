@@ -16,6 +16,14 @@
       "_vendor-svelte.30fdc271.js"
     ]
   },
+  "src/components/WebcamFull.svelte": {
+    "file": "assets/WebcamFull.2acd6fc6.js",
+    "src": "src/components/WebcamFull.svelte",
+    "isEntry": true,
+    "imports": [
+      "_vendor-svelte.30fdc271.js"
+    ]
+  },
   "src/components/WebcamOnline.svelte": {
     "file": "assets/WebcamOnline.2b4eb2dc.js",
     "src": "src/components/WebcamOnline.svelte",
@@ -43,6 +51,17 @@
     "imports": [
       "_iles.d354bc70.js",
       "src/components/TagYoutube.svelte",
+      "_vendor-vue.2f656d6f.js",
+      "_vendor-svelte.30fdc271.js"
+    ]
+  },
+  "virtual_ile_webcam-full_ile-1": {
+    "file": "assets/virtual_ile_webcam-full_ile-1.8d4d510a.js",
+    "src": "virtual_ile_webcam-full_ile-1",
+    "isEntry": true,
+    "imports": [
+      "_iles.d354bc70.js",
+      "src/components/WebcamFull.svelte",
       "_vendor-vue.2f656d6f.js",
       "_vendor-svelte.30fdc271.js"
     ]

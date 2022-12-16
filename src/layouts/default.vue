@@ -1,7 +1,5 @@
 <script setup="">
-import "virtual:windi.css";
-// import "@unocss/reset/tailwind.css";
-// import "uno.css";
+
 
 const daftar_isi = [
   {
@@ -20,6 +18,10 @@ const daftar_isi = [
     judul: "Get Ayat",
     link: "/get-ayat",
   },
+  {
+    judul: "Webcam Online (full)",
+    link: "/webcam-full",
+  },
 ];
 </script>
 
@@ -34,7 +36,7 @@ const daftar_isi = [
       <div class="border">
         <router-link
           class="block p-3 text-sm bg-violet-300 hover:bg-violet-500 hover:text-white"
-          v-for="x in daftar_isi"
+          v-for="x in daftar_isi.sort((a, b) => (a.link > b.link ? 1 : -1))"
           :to="x.link"
           >{{ x.judul }}</router-link
         >

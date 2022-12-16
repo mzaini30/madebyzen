@@ -12,6 +12,7 @@ declare module '@vue/runtime-core' {
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     TagYoutube: typeof import('./src/components/TagYoutube.svelte')['default']
+    WebcamFull: typeof import('./src/components/WebcamFull.svelte')['default']
     WebcamOnline: typeof import('./src/components/WebcamOnline.svelte')['default']
   }
 }
